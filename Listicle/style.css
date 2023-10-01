@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.articulo-texto {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 32px;
+
+}
+
+.articulo {
+    padding: 60px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.usuario {
+    padding: 60px;
+    width: 50%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
+    text-align: center;
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+.fecha {
+    font-style: italic;
+}
+
+.titulo-art {
+    color: rgb(51, 51, 51);
+    font-family: 'Roboto Slab';
+    font-size: 36px;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background: #159957;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #15579976, #1599576b), url(img/portada7.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+header .textos-header {
+    display: flex;
+    height: 400px;
+    width: 780;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Roboto Slab';
+    font-size: 36px;
+    text-align: center;
+
+}
+
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 span {
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+    border-radius: 60%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    margin-right: 40px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.parrafo-articulo {
+    margin-left: 40px;
+    margin: 20px;
+}
+
+img.Comp {
+    width: 200px;
+    height: 200px;
+}
+
+img.lenguaje {
+    width: 66.67%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.descarga-pagina {
+    color: #42b4d6;
+    text-decoration: none;
+    margin-left: 130px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover,
+a:focus {
+    background-size: 100% 2px;
+}
